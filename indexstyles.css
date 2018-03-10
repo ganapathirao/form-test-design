@@ -1,0 +1,211 @@
+	body{
+		font-family:Source Sans Pro;
+		overflow-x: hidden;
+	}
+
+	/* Navbar Styles*/
+	li a{
+		margin-left: 3px;
+		color: white;
+		background-color:rgb(232,114,18);
+	}
+
+	.statusbar {
+	   border-top: 3px solid rgb(51,194,78);
+	}
+
+	.navitem1{
+		margin-left: 0px;
+	}
+	.navbar-collapse { padding: 0; } 
+	.navbar-nav > li:first-child > a, .navbar-nav > li:last-child > a { padding: 0px; }
+	.navbar-nav { display: table; width: 100%; margin: 0; }
+	.navbar-nav > li { display: table-cell; text-align: center; float: none; }
+	.navbar-nav > li >a {padding:8px;}
+	.navbar-nav > li:first-child > a{position: relative;left: -3px;}
+	.navbar-nav > li:last-child > a{position: relative;left: 0px;}
+
+	/* Navbar Styles Ends*/ 
+
+
+	hr{
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	.glyphicon{
+		font-size: 20px;
+		padding-top: 3px;
+		top:4px;
+		padding-bottom: 12px;
+	}
+
+	.logo{
+		font-size: 35px;
+		margin-left: 20px;
+		color: rgb(161,171,183);
+	}
+
+	.Propertydetails{
+		font-size: 25px;
+		margin-top: 23px;
+		color: rgb(161,171,183);
+	}
+	label{
+	margin-bottom: 15px;
+	}
+	.section1{
+		margin-top:70px;
+	}
+	.textcolor{
+		color: rgb(163,171,184);
+	}
+	select,.Loc{
+		margin-top: 15px;
+	}
+	.dolor{
+		background-color: white;
+		width: 25px;
+	}
+	.accessfee{
+		margin-top: 15px;
+		padding-left: 0px;
+	}
+
+	h3{
+		margin-bottom: 0px;
+		margin-top: 10px;
+		font-size: 18px;
+	}
+	.section-2{
+		margin-top: 0px;	
+	}
+
+	.input-group-unstyled .input-group-addon {
+	    border-radius: 0px;
+	    border: 0px;
+	    background-color: transparent;
+	    color:rgb(45,204,111);
+	}
+	.input-group-addon {
+	    padding: 6px 0px;
+	 }
+	.marginforalarm{
+		margin-bottom:40px;
+	}
+
+	.alarm{
+		padding: 20px;
+	}
+
+	.minusicon{
+		position: relative;
+		top: -15px;
+		cursor: pointer;
+	}
+
+	.plusicon{
+		position: relative;
+		top: -7px;
+		color: rgb(232,114,18);
+		left:5px;
+		font-size: 15px;
+	}
+
+	select {
+	    -webkit-appearance:none;
+	    -moz-appearance:none;
+	    cursor:pointer;
+	    -webkit-border-radius: 0px;
+	    -moz-border-radius: 0px;
+	    border-radius: 0px;
+	}
+
+	.label1 {position:relative}
+	.label1:after {
+	    content:"\f078";   
+	    font-family: "FontAwesome";
+	    font-size: 15px;
+	    color:#aaa;
+	    right:25px; top:22px;
+	    padding:0 0 2px;
+	    position:absolute;
+	    pointer-events:none;
+	}
+	.label1:before {
+	    right:4px; top:0px;
+	    width:23px; height:18px;
+	    background:#fff;
+	    position:absolute;
+	    pointer-events:none;
+	    display:block;
+	}
+	.plusorminusicon{
+		position: relative;
+		top: -29px;
+		left:4px;
+		font-size: 15px;
+	}
+	.codeuserbox{
+		margin-top: 15px;
+	}
+	.codeselect{
+		margin-top: -15px;
+	}
+	.codeLocbox{
+		margin-top:75px;
+	}
+
+	/* Bottom Left and Right Arrows styles */
+	.leftarrow{
+		padding-top: 7px;
+		padding-right: 10px;
+		width: 70px;
+		padding-left: 10px;
+		height: 45px;
+		padding-bottom: 0px;
+		background-color: rgb(116,133,151);
+	}
+
+	.rightarrow{
+		padding-top: 7px;
+		padding-right: 10px;
+		width: 70px;
+		padding-left:15px;
+		height: 45px;
+		background-color: rgb(116,133,151);
+	}
+
+
+	@media screen and (max-width: 991px){
+	.keytextboxes{
+		margin-left: 15px;	
+	}
+	.codeLocbox{
+		margin-top: 36px;
+	}
+	.emptyrow{
+		margin-bottom:50px;
+	}
+	  }
+
+	@media screen and (max-width: 900px){
+	.glyphicon{
+		padding-left: 10px;
+		padding-bottom: 32px;
+		padding-right: 10px;
+		top:12px;
+		padding-left: 9px;
+	}
+	.plusorminusicon{
+		position: relative;
+		top: -49px !important;
+		left: -1px;
+
+	}
+	.plusicon{
+		position: relative;
+		top: -6px !important;
+		left:0px;
+	}
+		}
